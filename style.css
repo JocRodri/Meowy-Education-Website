@@ -1,0 +1,51 @@
+body{
+	background-image: url("paw_background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/*This adds the paw print background, and keeps it in the same position even when scrolling on the page*/
+header{
+	padding: 0px;
+	text-align: center;
+	font-family:Verdana, sans-serif;
+	font-size: 25px;
+	color:#3A158B;
+}
+/*This customized the header of each page, keeping the font a certain style, color, and size. This also centers the heading.*/
+section{
+	text-align: center;
+}
+/*This is for the photos on each page. I preferred the photos to be centered, so I separated them from the article.*/
+article{
+	margin-top: 5px;
+	margin-right: 400px;
+	margin-left: 80px;
+	padding: 10px;
+	font-family:Verdana, sans-serif;
+	font-size: 30px;
+	color: black;
+}
+/*This is for the article/readings on each page. This keeps them in the same spot underneath the photo, and makes sure it does not interfere with the categories. 
+This also keeps the font a certain style, color and size.*/
+aside{
+	position: fixed;
+	text-align: center;
+	top: 150px;
+	right: 15px;
+	width: 300px;
+	font-family:Verdana, sans-serif;
+	font-size: 30px;
+	border-style: dashed;
+	color: #3A158B;
+	padding: 5px;
+}
+a{
+	text-decoration: none;
+	color: #3A158B;
+}
+/*This is for my categories. I want them to be on the right hand side of the screen. This keeps them in the same place on every screen. 
+This also keeps the font a certain style, color and size.*/
+table, th, td {
+  border:1px solid black;
+}
+/*This is for the table I created in the Cat Toys page. It puts a border around the table to make it look cleaner.*/
